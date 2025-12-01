@@ -24,7 +24,7 @@ public class Student extends CollegeMembers
         return status;
     }
     // setters
-    public void setID(int studentID)
+    public void setStudentID(int studentID)
     {
         this.studentID = studentID;
     }

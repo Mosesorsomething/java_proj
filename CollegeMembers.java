@@ -48,15 +48,12 @@ public class CollegeMembers
     {
         this.lastName = lastName;
     }
-    public void setSSN(int SSN)
-    {
-        this.SSN = SSN;
-    }
-    public void getAddress(String address)
+    //SetSSN() is excluded.
+    public void setAddress(String address)
     {
         this.address = address;
     }
-    public void getPhoneNum(int phoneNum)
+    public void setPhoneNum(int phoneNum)
     {
         this.phoneNum = phoneNum;
     }
